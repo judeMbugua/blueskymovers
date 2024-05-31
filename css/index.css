@@ -1,0 +1,207 @@
+html{
+    background-color: rgb(224, 219, 212);
+    scroll-behavior: smooth;
+    
+}
+
+html a{
+    text-decoration: none;
+    color: black;
+}
+
+
+.header-container{
+    margin-top: -7px;
+    margin-left: -3px;
+    width: 100vw;
+    position: fixed;
+    z-index: 9999;
+ 
+}
+
+.menu-btn{
+    background-color: gray;
+    border: none;  
+    height: 3rem;
+    width: 4rem;
+    margin-top: 1rem;
+    margin-left: 17rem;
+    margin-right: 1rem;
+}
+
+#logo{
+
+    margin-left: .2rem;
+    margin-top: .5rem;
+    position: absolute;
+    height: 7rem;
+    width: 100%;
+   
+}
+
+.about-sec{
+    margin-top: 8rem;
+    margin-left: .3rem;
+    width: 95%;
+    height: fit-content;
+    position: absolute;
+    z-index: 1;
+    
+   
+
+
+}
+
+#about_header{
+    font-family: "Averia Serif Libre", serif;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: 2px;
+    font-size: 1.3rem;
+    text-align: center;
+    color: rgb(7, 128, 128);
+}
+
+#abouttext_cont{
+    margin-top: 10px;
+    margin-left: .3rem;
+    width: 95%;
+    text-align: center;
+    height: fit-content;
+ 
+}
+
+#us_text{
+    margin-top: -.5rem;
+    font-family: "Averia Serif Libre", serif;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: .5px;
+}
+
+
+.gallery-sec{
+    margin-top: 3rem;
+    margin-left: .3rem;
+    width: 95%;
+    height: max-content;
+    
+ 
+}
+
+.wrapper{
+    display:grid;
+    gap: 1rem;
+    grid-auto-flow:column;
+    grid-auto-columns: 57%;
+    overflow-x:auto;
+    overflow-y: hidden;
+    overscroll-behavior-inline: contain;
+
+}
+
+.wrapper > img{
+    inline-size: 100%;
+    block-size: 100%;
+    border-radius: 1rem;
+}
+
+#gallery_text{
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    inline-size: 90%;
+    margin-left: 1rem;
+    font-family: "Boogaloo", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.2rem;
+}
+
+.whyus-container{
+    margin-top: 20px;
+}
+
+
+.services-sec{
+    margin-top: 54.5rem;
+    position: absolute;
+    margin-left: .3rem;
+    width: 95%;
+    height: fit-content;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin-bottom: 11rem;
+}
+
+#about_header{
+    font-family: "Averia Serif Libre", serif;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: 2px;
+    font-size: 1.3rem;
+    text-align: center;
+    color: rgb(7, 128, 128);
+}
+
+.services-container{
+    margin-left: .3rem;
+    width: 95%;
+    height: fit-content;
+    
+ 
+}
+
+.wrapper2{
+    display:grid;
+    gap: 1rem;
+    grid-auto-flow:column;
+    grid-auto-columns: 57%;
+    overflow-x:auto;
+    overflow-y: hidden;
+    overscroll-behavior-inline: contain;
+
+}
+
+.service-image{
+    margin-top: 10px;
+    inline-size: 8rem;
+    block-size: 8rem;
+    border-radius: 1rem;
+    margin-left: 15px;
+}
+
+.service-info{
+    margin-left: 1rem;
+    border-style: groove;
+}
+
+#service_type{
+    color: rgb(6, 124, 124);
+    font-size: 1.2rem;
+    font-family: "Coiny", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#service_desc{
+    font-size: 1.1rem;
+}
+
+
+.service-info p{
+    margin-top: .8rem;
+    text-align: center;
+    font-family: "Boogaloo", sans-serif;
+    font-style: normal;
+
+}
+
+.enquire-btn{
+    margin-top: -.5rem;
+    font-size: 1.2rem;
+    width: fit-content;
+    padding-block: 10px;
+    background-color: rgb(10, 190, 16);
+    padding-inline: 10px;
+    border-radius: 10px;
+
+}
